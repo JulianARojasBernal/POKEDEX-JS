@@ -1,2 +1,2 @@
-# POKEDEX-JS
-App de pokedex, con solicitud api y obtención de información
+# Pokedex
+Aplicacion de pokedex

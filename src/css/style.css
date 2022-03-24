@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url('/src/imagen/Pok_mon-193746.jpg');
+    
+}
+
+.container{
+    margin: 10px auto;
+    padding: 10px 50px;
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(145, 11, 11, 0.01);
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: Pokemon Solid, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 2.4em;
+    letter-spacing: 10px;
+}
+
+h3{
+    color: rgb(220, 222, 238);
+    font-weight: bold;
+}
+
+.pokedex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+img{
+    width: 200px;
+    display: inline-block;
+    padding: 10px 50px;
+    background: url('/src/imagen/fondo.jpg');
+    border-radius: 5px;
+    border: 3px solid rgb(179, 179, 9);
+}
+
+#name{
+    margin: 10px;
+    padding: 5px 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(121, 121, 12);
+}
+
+#type{
+    margin: 10px;
+    padding: 5px 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(121, 121, 12);
+}
+
+.listas{
+    margin:35px auto;
+    padding: 10px 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Jura', sans-serif;
+    font-size: 1em;
+    color: rgb(240, 237, 87);
+    border: 3px solid rgb(240, 237, 87);
+}
+
+.listas li{
+    list-style: none;
+}
+
+.listas li span{
+    color: rgb(230, 226, 10);
+    font-size: 1.05em;
+}
+
+.search{
+    width: 50%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: yellow;
+    font-size: 1.5em;
+}
+
+button{
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'Jura', sans-serif;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
